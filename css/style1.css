@@ -1,0 +1,265 @@
+/* General */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*
+.container{
+        padding: 100px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin: 10px;
+}
+*/
+header .container-Flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: normal;
+    box-shadow:0 -2px 10px 0 rgb(0 0 0 / 15%);
+    padding-bottom: 15px;
+
+}
+
+header .logo  {
+
+    width: 306px;
+    height: 33px;
+}
+
+
+header .logo img{
+    width: 100%;
+    height: 100%;
+    padding: 12px 0px 0px 0px ;
+}
+
+header .navLink ul {
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header .navLink ul li{
+    margin: 10px;
+    list-style: none;
+}
+
+header .navLink ul li a{
+    text-decoration: none;
+   color: seagreen;
+   font-size: 20px;
+}
+
+.description{ 
+
+    margin: 2.0625rem auto 3.75rem;
+}
+
+.logo-sygnet{
+
+    display: block;
+    margin: 0px auto;
+}
+
+.description h1{
+    text-align: center;
+    color: #00b39b;
+    padding: 20px;
+}
+
+.description .grid{
+
+    display: flex;
+}
+
+.description .grid .paragraphe {
+    line-height:  1.75em;
+    margin: 15px; 
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+
+section.services .Flex-services{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.services .Flex-services .tab{
+
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+
+}
+
+section.services .Flex-services .tab:hover{
+    box-shadow: 0 0 20px 0px rgba(233, 7, 7, 0.2);
+}
+section.services .Flex-services .service{
+    background-color: #00b39b;
+}
+section.services .Flex-services .doctors{
+    background-color: #747474;
+}
+section.services .Flex-services .clinics{
+    background-color:  #3d83df;
+}
+
+section.services  h1 {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-family:Work Sans,Arial,sans-serif;
+}
+
+section.services h2{
+    color: white;
+    font-size: 16px;
+    font-family:Work Sans,Arial,sans-serif;
+}
+
+section.services .sub-service {
+
+    margin:20px
+}
+
+section.services .sub-service h1{
+
+    color: #00b39b;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    font-weight:300;
+    font-family: Work Sans,Arial,sans-serif;   
+}
+
+section.services .brands_logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0;
+    width: 67%;
+    list-style: none;
+
+}
+svg { 
+
+    width: 97px;
+}
+
+section.services .sub-service{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.services .sub-service .brands_logos{
+display: flex;
+justify-content: space-between;
+}
+
+section.services .brands_logos img{
+        width: 72px;
+        margin-right: 48px;
+}
+/* start state */
+
+.state{
+    background: #e5faf8;
+    background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    padding: 1.875em 0 .625em;
+    overflow: hidden;
+    margin: 0.125rem auto 3.5rem;
+    height: 548px;
+}
+
+.state .container-state {
+    zoom: 1;
+    max-width: 1109px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.state .state-header{
+    margin-top: 27px;
+}
+
+.state .state-header::before{
+
+    content: "";
+    position: absolute;
+    right: 16%;
+    top: 40%;
+    background: url(https://www.docplanner.com/img/logo.png) no-repeat;
+    width: 456px;
+    height: 435px;
+    pointer-events: none;
+}
+.state .stats-grid{
+        margin: 0px -15px;    
+}
+
+.state .fade-elements-visible{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+    height: 218px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: .8125em;
+}
+
+.offices {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.offices .offices-header{
+    max-width: 492px;
+    margin: 0 auto 4.1875rem;
+    font-size: .875em;
+    text-align: center;
+}
+
+.offices .offices-header h1{
+    
+        font-size: 2.1428571429em;
+        color: #00b39b;
+}
+
+.offices .offices-header p{
+         margin:11px;
+        line-height: 1.7142857143;
+}
+/* section boxes */
+
+section.box .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.les-box {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.les-box .content-des:hover {
+    box-shadow:0 -2px 10px 0 rgb(0 0 0 / 15%);
+}
+.content-title-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: rgba(100, 148, 237, 0.281);
+}
